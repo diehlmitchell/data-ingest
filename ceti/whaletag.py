@@ -2,7 +2,7 @@
 # while being attached to the same wireless network as a charged and
 # running whale tag to pull the data from.
 
-# All of the data will be pulled into the the forlder ./data
+# All of the data will be pulled into the folder ./data
 # Whale tags are embedded computers that automatically connect to a "ceti"
 # wireless network. They also support Ethernet over USB protocol, but
 # the phisical access to the USB port may be difficult to reach.
@@ -17,11 +17,10 @@ from argparse import Namespace
 import asyncio
 import ipaddress
 import os
-import re
+import re # regex
 import socket
 import sys
-import netifaces
-
+import netifaces 
 import findssh
 import paramiko
 
